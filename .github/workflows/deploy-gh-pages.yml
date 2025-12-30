@@ -21,17 +21,16 @@ jobs:
         with:
           version: 10
 
+      - name: Configure git bot
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
           node-version: 24
           cache: 'pnpm'
-
-      - name: Enable Corepack & pnpm
-        run: |
-          corepack enable
-          corepack prepare pnpm@9.1.0 --activate
-          pnpm --version
 
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
