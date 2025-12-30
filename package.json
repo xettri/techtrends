@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
+  "homepage": "https://xettri.github.io/techtrends",
   "scripts": {
     "build": "rsbuild build",
     "build:gh-pages": "GH_PAGES=true rsbuild build",
