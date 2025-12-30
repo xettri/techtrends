@@ -92,7 +92,7 @@ const ArticlePage = () => {
               <span className="px-3 py-1 bg-primary text-primary-foreground text-xs font-bold rounded-full uppercase tracking-wider mb-4 inline-block">
                 {article.category}
               </span>
-              <h1 className="text-3xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
+              <h1 className="text-shadow-sm text-3xl md:text-5xl font-bold text-foreground mb-6 leading-tight">
                 {article.title}
               </h1>
 
@@ -130,7 +130,7 @@ const ArticlePage = () => {
                 ))}
               </div>
               <div className="flex space-x-4">
-                <button 
+                <button
                   onClick={handleShare}
                   className="p-2 rounded-full bg-secondary hover:bg-secondary/80 text-muted-foreground hover:text-primary transition-colors cursor-pointer"
                   title={copied ? "Copied!" : "Share Article"}

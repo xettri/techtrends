@@ -41,13 +41,12 @@ const Navbar = () => {
       >
         <div className="max-w-7xl mx-auto px-4 md:px-6">
           <div className="flex items-center justify-between h-16 md:h-20">
-            {/* Logo */}
             <Link to="/" className="flex items-center space-x-2 group">
               <div className="bg-primary/10 p-2 rounded-xl group-hover:bg-primary/20 transition-colors">
                 <Zap className="text-primary transform group-hover:-rotate-12 transition-transform duration-300" size={24} fill="currentColor" />
               </div>
               <span className="text-xl md:text-2xl font-bold text-foreground tracking-tight">
-                TechNews
+                TechTrends
               </span>
             </Link>
 

@@ -40,7 +40,7 @@ const About = () => {
         >
           <Terminal className="text-primary" size={48} />
         </motion.div>
-        
+
         <motion.h1
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -49,14 +49,14 @@ const About = () => {
         >
           We decode the <span className="text-primary">matrix</span> of technology.
         </motion.h1>
-        
+
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.2 }}
           className="text-xl text-muted-foreground leading-relaxed"
         >
-          TechNews isn't just another news site. It's a daily intelligence briefing for the people building the future.
+          TechTrends isn't just another news site. It's a daily intelligence briefing for the people building the future.
         </motion.p>
       </section>
 
@@ -107,11 +107,11 @@ const About = () => {
             ))}
           </div>
         </div>
-        
+
         <div className="relative h-[500px] rounded-3xl overflow-hidden hidden md:block">
-          <img 
-            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2000&auto=format&fit=crop" 
-            alt="Team collaboration" 
+          <img
+            src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?q=80&w=2000&auto=format&fit=crop"
+            alt="Team collaboration"
             className="absolute inset-0 w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent" />
@@ -126,13 +126,13 @@ const About = () => {
             Stay ahead of the curve with our daily newsletter. No spam, just pure tech insights.
           </p>
           <Link
-            to="/latest" 
+            to="/latest"
             className="inline-flex items-center px-8 py-3 bg-primary text-primary-foreground font-semibold rounded-full hover:bg-primary/90 transition-colors shadow-lg shadow-primary/25"
           >
             Start Reading Now <ArrowRight className="ml-2" size={18} />
           </Link>
         </div>
-        
+
         {/* Decorative background elements */}
         <div className="absolute top-0 left-0 w-64 h-64 bg-primary/10 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
         <div className="absolute bottom-0 right-0 w-64 h-64 bg-purple-500/10 rounded-full blur-3xl translate-x-1/2 translate-y-1/2" />

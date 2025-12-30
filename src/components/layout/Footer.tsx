@@ -13,7 +13,7 @@ const Footer = () => {
                 <Zap className="text-primary transform -rotate-12" size={24} fill="currentColor" />
               </div>
               <span className="text-2xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-foreground to-foreground/70">
-                TechNews
+                TechTrends
               </span>
             </div>
             <p className="text-muted-foreground text-sm leading-relaxed">
@@ -64,7 +64,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-border pt-8 flex flex-col md:flex-row justify-between items-center text-sm text-muted-foreground">
-          <p>&copy; {new Date().getFullYear()} TechNews Platform. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} TechTrends Platform. All rights reserved.</p>
           <div className="flex space-x-6 mt-4 md:mt-0">
             <a href="#" className="hover:text-primary transition-colors">Twitter</a>
             <a href="#" className="hover:text-primary transition-colors">GitHub</a>
