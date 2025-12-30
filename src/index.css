@@ -295,3 +295,15 @@ body {
   border-top: none;
   background-color: var(--muted);
 }
+
+.highlight__panel {
+  display: none;
+}
+
+code::after {
+  content: '';
+}
+
+code::before {
+  content: '';
+}
